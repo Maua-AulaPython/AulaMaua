@@ -8,3 +8,6 @@ def par(x):
 
 a = int(raw_input('Digite o numero: '))
 par(a)
+
+# Nota: 0.9
+# Comentario: Nao esqueca do .py ;)

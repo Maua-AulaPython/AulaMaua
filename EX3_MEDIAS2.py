@@ -18,3 +18,6 @@ while a>=0:
     
     
 print media (lista[:-1])
+
+# Nota: 1.0
+# Comentario: **
