@@ -24,5 +24,5 @@ while a>=0:
             print ' voce nao digitou um numero valido'
     lista.append(a)
    
-print media (lista[:-1])
-print ' a maior note é: {0}' .format(maior)
+print ' media: ', media (lista[:-1])
+print 'a maior nota é: {0}' .format(maior)
