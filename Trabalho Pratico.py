@@ -12,6 +12,9 @@ def distancia (X1, Y1, X2, Y2):
 
 print ' a distancia entre os pontos:', distancia(X1,Y1,X2,Y2)
 
+# Nota: 1.0
+# Good job!
+
 #Exercicio2
 
 from math import *
@@ -26,16 +29,19 @@ def maiordistancia (lista):
     for i in range(len(lista)):
         X1 = lista [i][0]
         Y1 = lista [i][1]
-        for j in range(len(lista)):     
+        for j in range(len(lista)):
             X2 = lista [(j)][0]
             Y2 = lista [(j)][1]
             d = sqrt((X2-X1)**2 + (Y2-Y1)**2)
             if (d > dmax):
                 dmax = d
     print (dmax)
-        
+
 
 maiordistancia(lista)
+
+# Nota: 1.0
+# Você deveria ter utilizado a função distancia ;)
 
 #Exercicio3
 
@@ -57,6 +63,9 @@ def fase (x,y):
 print 'Primeira coordenada: modulo: ' , modulo(X1,Y1) , 'fase: ', fase(X1,Y1)
 print 'Segunda coordenada : modulo: ' , modulo(X2,Y2) , 'fase: ', fase(X2,Y2)
 
+# Nota: 0.5
+# Era pra calcular as coordenadas do vetor formado entre os dois pontos!
+
 #Exercicio4
 
 from math import *
@@ -70,7 +79,10 @@ if (a+b) > c:
     print (' O triangulo retangulo e sua area vale: ' , area)
 else:
         print (' o triangulo {0},{1},{2} nao e retangulo'.format (a,b,c))
-        
+
+# Nota: 1.0
+# Good job!
+
 #Exercicio5
 
 from math import *
@@ -103,3 +115,7 @@ def gps (x,y,z):
     print lat,teta1,h
 
 gps (x,y,z)
+
+# Nota: 1.0
+# Dica, não precisava repetir a função aux e teta, bastava colocalas antes do
+# N e h
