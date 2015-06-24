@@ -25,4 +25,7 @@ while a>=0:
     lista.append(a)
    
 print ' media: ', media (lista[:-1])
-print 'a maior nota é: {0}' .format(maior)
+print 'a maior nota e: {0}' .format(maior)
+
+#Nota: 1.1
+#Comentario: Valia 1.0, mas dei mais 0.1 por calcular a maior nota em uma unica linha
